@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 50%;
+    font-size: 30px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.Column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+
+}
+input{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+body{
+    height: 100vh;
+            background: linear-gradient(to bottom, #00FFD1, #00FF66, #66ffe6);
+}
+
+button{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 50px;
+    font-family: "Arial, Helvetica, sans-serif";
+}
