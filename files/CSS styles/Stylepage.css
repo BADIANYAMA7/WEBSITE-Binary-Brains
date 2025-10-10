@@ -12,7 +12,10 @@
     justify-content: center;
     margin: 20px 0;
 }
-
+.button-row button:active {
+    background-color: orange;
+    color: #fff;
+}
 
 button {
     border-radius: 20px;

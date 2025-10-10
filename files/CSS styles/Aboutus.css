@@ -58,6 +58,16 @@ button {
     font-weight: bold;
 }
 
+    
+button:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.5);;
+    }
+    button:active {
+        cursor: pointer;
+        background-color: #ff9800;
+        color: #fff;
+    }
 
 body {
     height: 100%;
