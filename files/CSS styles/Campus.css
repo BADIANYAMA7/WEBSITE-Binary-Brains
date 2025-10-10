@@ -1,0 +1,19 @@
+body {
+    height: 100%;
+
+    background: linear-gradient(to bottom, #00FFD1, #00FF66, #66ffe6);
+}
+.image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 24px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
