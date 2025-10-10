@@ -1,11 +1,11 @@
-/* General layout for rows */
+
 .row {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Button row (navbar-style) */
+
 .button-row {
     display: flex;
     gap: 15px;
@@ -13,7 +13,7 @@
     margin: 20px 0;
 }
 
-/* Buttons */
+
 button {
     border-radius: 20px;
     font-size: 16px;
@@ -30,7 +30,7 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Heading */
+
 h1 {
     text-align: center;
     border: 2px solid black;
@@ -39,7 +39,7 @@ h1 {
     margin: 20px auto;
 }
 
-/* Name label (textborder) */
+
 .textborder {
     border-radius: 20px;
     font-size: 20px;
@@ -47,7 +47,7 @@ h1 {
     padding: 5px 10px;
 }
 
-/* Paragraph block */
+
 p {
     color: #000;
     font-weight: bold;
@@ -62,14 +62,14 @@ p {
     margin: 10px auto;
 }
 
-/* Body background */
+
 body {
     background: linear-gradient(to bottom, #00FFD1, #00FF66, #66ffe6);
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* CARD ROW */
+
 .card-row {
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@ body {
     margin-top: 30px;
 }
 
-/* Individual card styling */
+
 .card {
     background-color: #f5f5f5;
     border-radius: 10px;
