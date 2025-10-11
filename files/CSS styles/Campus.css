@@ -17,3 +17,22 @@ body {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
+        button{
+    margin-top: 100px;
+    text-align: center;
+    height: 200;
+    background-color: #00FF66;
+    border: 2px solid black;
+    font-size: large;
+    font-style:italic;
+}
+button:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.5);;
+    }
+    button:active {
+        cursor: pointer;
+        background-color: #ff9800;
+        color: #fff;
+    }
+
