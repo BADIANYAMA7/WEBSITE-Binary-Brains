@@ -1,34 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
     <link rel="stylesheet" href="CSS styles/Registration.css">
+    <title>Registration Page</title>
 </head>
 <html>
-    <body>
-        
-        <div class="row">
-        <h1>Registration and application form</h1>
-        </div>
-        <div class="row">
-        <p>Please fill in the form below to register for our courses. We look forward to helping you on your learning journey!</p>
-        </div>
-        
-        <div class="Column">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTFvxT7gaY6LbiKtVQ6ZOoCi_cWxsse6nXSNJo7QfapNAp0Q/viewform?embedded=true" width="640" height="1646" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        <input type="text" placeholder="Enter your Name">
-        <input type="text" placeholder="Enter your Surname ">
-        <input type="text" placeholder="Enter your Number">
-        <input type="text" placeholder="Enter your ID">
-        </div>
-        <div class="row">
-        <a href="Courses.html">
-        <Button>SUBMIT</Button>
-        </a>
-        
-        </div>
 
-    </body>
-</html>
+
+<body>
+    <footer>
+        <Navigation class="Navigation">
+            <a href="IntroductionPage.html">
+                <img src="./Images/Untitled design-modified.png" width="200" height="200"> </a>
+            <h1 style="font-size: var(--font-size);">Empowering The Nation 2022</h1>
+            <div class="Dropdown">
+                <h1>More</h1>
+                <p class="content"><a href="Apply.html">Apply </a></P>
+                <p class="content"><a href="AboutUS.html">About us</a></p>
+                <p class="content"><a href="Courses.html">Courses</a></p>
+                <p class="content"><a href="Registration.html">Registration</a></p>
+            </div>
+        </Navigation>
+    </footer>
+</body>
+<section>
+    <p class="border">Welcome to Empowering the Nation! To register for our six-month training program, please complete
+        the
+        registration form with your correct personal details. We require this information to make sure your enrollment
+        is processed smoothly and that you receive the right course materials and support.
+
+        When registering, you’ll need to provide the following details:
+
+        Your full name and surname
+
+        Your ID number or passport number (for identification purposes)
+
+        Your home address and area of residence
+
+        Your contact information, including phone number and email address
+        Once your registration form is submitted, our team will review your details and confirm your placement. You will
+        then receive all the information you need about your chosen course, including start dates, schedules, and what
+
+</section>
+<section>
+    <form>
+        <h1 id="apply">Please complete the form before proceding to apply</h1>
+        <input id="text1" type="text" placeholder="Enter Your name(Passport Name)">
+        <input id="text2" type="text" placeholder="Enter Your ID/Passport number">
+        <input id="text3" type="text" placeholder="Home address">
+        <input id="text4" type="text" placeholder="Area of residence">
+        <input id="Submit1" type="submit" value="Submit">
+    </form>
+   
+</section>
+<script src="./JavaScript/Registration.js"> </script>

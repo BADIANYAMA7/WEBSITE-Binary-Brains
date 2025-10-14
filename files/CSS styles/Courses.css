@@ -1,43 +1,93 @@
- body{ justify-content: center;
-    text-align: center;
+:root{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Navigation {
     display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 750px;
+    background-color: rgba(153, 218, 223, 0.425);
+}
+.Dropdown {
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 20px;
     justify-content: center;
-            height: 100vh;
-              background: linear-gradient(to bottom, #00FFD1, #00FF66, #66ffe6);
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    cursor: pointer;
+    P{
+        display:none
     }
+}
+.content{
+   border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+}
+.content:hover{
+    background-color:aqua
+}
+
+
+.Dropdown:hover {
+    background-color: rgba(240, 248, 255, 0.438);
+    
+    P{
+        display: block;
+    }
+    
+   
+}
+
+
+
+body{
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--font-family);
+    height: 100%;
+    background: linear-gradient(to bottom, #00FFD1, #00FF66, #66ffe6);
+}
+
+
+.border{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 33px;
+    background-color: aliceblue;
+
+    
+    
+}
+
 
 .row{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
+    gap: 190px;
+    flex-wrap: wrap;
+    display: flex;
 }
-p{
-    border: 2px solid black;
-    font-size: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    text-align: center;
-    justify-content: center;
-}
-button{
-    margin-top: 100px;
-    text-align: center;
-    height: 200;
-    background-color: #00FF66;
-    border: 2px solid black;
-    font-size: large;
-    font-style:italic;
-}
-button:hover {
-        cursor: pointer;
-        background-color: rgba(255, 255, 255, 0.5);;
-    }
-    button:active {
-        cursor: pointer;
-        background-color: #ff9800;
-        color: #fff;
-    }
+
+
 

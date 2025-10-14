@@ -1,7 +1,8 @@
-:root{
-    --font-size: 30px;
+:root {
+    --font-size: 24px;
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .Navigation {
     display: flex;
     flex-direction: row;
@@ -11,16 +12,6 @@
     gap: 750px;
     background-color: rgba(153, 218, 223, 0.425);
 }
-.border{
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 20px;
-    font-size: var(--font-size);
-    background-color: aliceblue;
-    align-items: center;
-    text-align: center;
-}
-
 
 .Dropdown {
     border: 2px solid black;
@@ -56,30 +47,37 @@
         display: block;
     }
     
+   
 }
-footer{
-    align-items: center;
+.border{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+form{
     text-align: center;
     flex-direction: column;
     display: flex;
 }
-input{
-    text-align: flex-start;
+Fees{
     border: 2px solid black;
+    font-size: var(--font-size);
+    padding: 5px;
+    background-color: aliceblue;
     border-radius: 20px;
-    width: 500px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 200px;
-    margin-bottom: 20px;
 }
 
-Button{
+input{
     border: 2px solid black;
-    width: 200px;
-    height: 100px;
+    font-size: var(--font-size);
+    padding: 5px;
     border-radius: 20px;
-
+}
+.column{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 body{

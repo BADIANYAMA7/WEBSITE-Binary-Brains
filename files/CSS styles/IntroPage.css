@@ -40,6 +40,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-decoration: none;
     display: flex;
     cursor: pointer;
     P{
@@ -50,10 +51,16 @@
    border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
-    text-decoration: none;
+    text-decoration:none;
+    display: none;
 }
 .content:hover{
-    background-color:aqua
+    background-color:aqua;
+    text-decoration: none;
+}
+.content:visited{
+    display: none;
+    text-decoration: none;
 }
 
 
@@ -91,6 +98,7 @@ button{
     border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
+    text-decoration: none;
 
 
     transition-property: all;
@@ -101,5 +109,6 @@ button{
 button:hover{
     transform: scale(2);
     background-color: aquamarine;
+    text-decoration: none;
     
 }
