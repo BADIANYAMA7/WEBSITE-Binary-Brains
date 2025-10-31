@@ -8,33 +8,44 @@
     <link rel="stylesheet" href="CSS styles/Stylepage.css" />
     <title>Contact Page</title>
 </head>
+
 <body>
-<Section>
-    <Navigation class="Navigation">
-        <a href="IntroductionPage.html">
-        <img src="./Images/Untitled design-modified.png" width="200" height="200"> </a>
-        <h1 style="font-size: var(--font-size);">Empowering The Nation 2022</h1>
-        <div class="Dropdown">
-            <h1>More</h1>
-            <p class="content"><a href="Apply.html">Apply </a></P>
-            <p class="content"><a href="AboutUS.html">About us</a></p>
-            <a href="Courses.html">
-                <p class="content">Courses</p>
-            </a>
-            <p class="content"><a href="Registration.html">Registration</a></p>
-        </div>
-    </Navigation>
-</Section>
-<footer>
-    <p class="border" style="font-size: var(--font-size);">Enquiry</p>
-    <p class="border">Contact Us:
+    <Section>
+        <Navigation class="Navigation">
+            <a href="IntroductionPage.html">
+                <img src="./Images/Untitled design-modified.png" width="200" height="200"> </a>
+            <h1 style="font-size: var(--font-size);">Empowering The Nation 2022</h1>
+            <div class="Dropdown">
+                <h1>More</h1>
+                <p class="content"><a href="Apply.html">Apply </a></P>
+                <p class="content"><a href="AboutUS.html">About us</a></p>
+                <a href="Courses.html">
+                    <p class="content">Courses</p>
+                </a>
+                <p class="content"><a href="Registration.html">Registration</a></p>
+            </div>
+        </Navigation>
+    </Section>
+    <footer>
+        <p class="border" style="font-size: var(--font-size);">Enquiry</p>
+        <p class="border">Contact Us:
 
-If you have any questions, need help with registration, or would like to know more about our courses, we’re here to assist you. Please reach out to us through the contact form or email provided below. Our support representative, Sally, is dedicated to helping you with any queries or concerns you may have. She will respond to your message as soon as possible to make sure you get the information and support you need.
+            If you have any questions, need help with registration, or would like to know more about our courses, we’re
+            here to assist you. Please reach out to us through the contact form or email provided below. Our support
+            representative, Sally, is dedicated to helping you with any queries or concerns you may have. She will
+            respond to your message as soon as possible to make sure you get the information and support you need.
 
-At Empowering the Nation, we value every learner and aim to make your experience with us as smooth and enjoyable as possible. Don’t hesitate to contact us — we’re always happy to help you on your journey toward empowerment and growth.</p>
-    <input id="inputtext" type="text" placeholder="Enter Your question">
-    <button id="button">Submit</button>
-</footer>
-    <script src="./JavaScript/Conatact.js"></script>
+            At Empowering the Nation, we value every learner and aim to make your experience with us as smooth and
+            enjoyable as possible. Don’t hesitate to contact us — we’re always happy to help you on your journey toward
+            empowerment and growth.</p>
+
+        <form method="POST" action="https://formsubmit.co/bombamtheonly@gmail.com">
+            <input class="innput" type="text" name="name" placeholder="Enter Your Name" required />
+            <input class="innput" type="email" name="email" placeholder="Enter Your Email" required />
+            <textarea class="message" name="Message" placeholder="Enter Message" required></textarea>
+            <button class="button" type="submit">Send</button>
+        </form>
+        <script src="./JavaScript/Conatact.js"></script>
+
 </html>
 </body>

@@ -10,14 +10,14 @@ document.addEventListener("DOMContentLoaded", function () {
     let Button = document.getElementById("Submit");
     let Send = document.getElementById("Send");
 
-    
+
     Button.addEventListener("click", function () {
         calculateCourses();
         calculateFees();
         applyDiscount();
     });
 
-    
+
     function calculateCourses() {
         CourseCount = 0; // 
         if (document.getElementById("First").checked) CourseCount++;
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (document.getElementById("Seven").checked) CourseCount++;
     }
 
-    
+
     function calculateFees() {
         totalFees = 0; // 
         if (document.getElementById("First").checked) totalFees += 1500;
@@ -40,11 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
         if (document.getElementById("Sixth").checked) totalFees += 750;
         if (document.getElementById("Seven").checked) totalFees += 750;
 
-        
+
         TOTAL.innerHTML = `Total Fees: $${totalFees}`;
     }
 
-    
+
     function applyDiscount() {
         let discount = 0;
         let finalTotal = totalFees;
@@ -65,12 +65,17 @@ document.addEventListener("DOMContentLoaded", function () {
             DISCOUNT.innerHTML = `Discount: No Discount`;
         }
 
-        
+
         FINALTOTAL.innerHTML = `Final Total: $${finalTotal.toFixed(2)}`;
     }
 
-    
+
     Send.addEventListener("click", function () {
-        alert("Thank you for your registration. We will get back to you shortly.");
+        if (CourseCount === 0) {
+            alert("Please Choose Atleast One Course")
+        }
+        else {
+            alert("Thank you for your registration. We will get back to you shortly.");
+        }
     });
 });

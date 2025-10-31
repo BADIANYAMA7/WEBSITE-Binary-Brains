@@ -1,7 +1,8 @@
-:root{
+:root {
     --font-size: 20px;
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .Navigation {
     display: flex;
     flex-direction: row;
@@ -11,6 +12,7 @@
     gap: 750px;
     background-color: rgba(153, 218, 223, 0.425);
 }
+
 .Dropdown {
     border: 2px solid black;
     background-color: aliceblue;
@@ -21,65 +23,84 @@
     flex-direction: column;
     display: flex;
     cursor: pointer;
-    P{
-        display:none
+
+    P {
+        display: none
     }
 }
-.content{
-   border: 2px solid black;
+
+.content {
+    border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
     text-decoration: none;
 }
-.content:hover{
-    background-color:aqua
+
+.content:hover {
+    background-color: aqua
 }
 
 
 .Dropdown:hover {
     background-color: rgba(240, 248, 255, 0.438);
-    
-    P{
+
+    P {
         display: block;
     }
-    
-   
+
+
 }
 
 
 
-body{
+body {
     text-align: center;
     font-family: var(--font-family);
     font-size: 30px;
 }
-.border{
+
+.border {
     border: 2px solid black;
     border-radius: 20px;
     padding: 20px;
     background-color: aliceblue;
 }
 
-body{
+body {
     height: 100vh;
-            background: linear-gradient(to bottom, #00FFD1, #00FF66, #66ffe6);
+    background: linear-gradient(to bottom, #00FFD1, #00FF66, #66ffe6);
 }
 
-input{
+input {
     width: 500px;
     height: 30px;
     border-radius: 20px;
+    border: 4px solid black;
     padding: 5px;
     font-family: var(--font-family);
     font-size: var(--font-size);
 
 }
 
-form{
-    display:flex;
+input:focus {
+    border-color: orange;
+    outline: none;
+}
+
+
+form {
+    display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
+}
+
+.button {
+    font-family: sans-serif;
+    font-size: x-large;
+    border: 4px solid black;
+    width: 200px;
+    height: 80px;
 }

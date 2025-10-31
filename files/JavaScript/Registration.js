@@ -12,10 +12,22 @@ document.addEventListener("DOMContentLoaded", function () {
         home = document.getElementById("text3").value;
         area = document.getElementById("text4").value;
 
+        if (document.getElementById("text1").value == "") {
+            alert("Please enter your Name");
+        } else if (document.getElementById("text2").value == "") {
+            alert("Please enter your Passport Number");
+        } else if (document.getElementById("text3").value == "") {
+            alert("Please enter your Home Address");
+        } else if (document.getElementById("text4").value == "") {
+            alert("Please enter your Area Code");
+        } else {
+            alert("Successful Registration");
+        }
+
+
         document.getElementById("text1").value = "";
         document.getElementById("text2").value = "";
         document.getElementById("text3").value = "";
         document.getElementById("text4").value = "";
-        alert("Successful Registration");
     }
 });

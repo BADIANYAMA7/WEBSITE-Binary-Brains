@@ -20,7 +20,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap:50px
+    gap: 50px
 }
 
 .totheleft {
@@ -43,22 +43,26 @@
     text-decoration: none;
     display: flex;
     cursor: pointer;
-    P{
-        display:none
+
+    P {
+        display: none
     }
 }
-.content{
-   border: 2px solid black;
+
+.content {
+    border: 2px solid black;
     border-radius: 20px;
     padding: 10px;
-    text-decoration:none;
+    text-decoration: none;
     display: none;
 }
-.content:hover{
-    background-color:aqua;
+
+.content:hover {
+    background-color: aqua;
     text-decoration: none;
 }
-.content:visited{
+
+.content:visited {
     display: none;
     text-decoration: none;
 }
@@ -66,12 +70,12 @@
 
 .Dropdown:hover {
     background-color: rgba(240, 248, 255, 0.438);
-    
-    P{
+
+    P {
         display: block;
     }
-    
-   
+
+
 }
 
 
@@ -92,7 +96,7 @@ body {
 
 }
 
-button{
+button {
     font-size: var(--font-size);
     background-color: aliceblue;
     border: 2px solid black;
@@ -106,9 +110,39 @@ button{
     transition-duration: 2s;
 }
 
-button:hover{
+button:hover {
     transform: scale(2);
     background-color: aquamarine;
     text-decoration: none;
-    
+
+}
+
+@media (min-width:320px) and (max-width: 425px) {
+    .Navigation {
+        gap: 200px;
+    }
+}
+
+@media (min-width:425px) and (max-width: 768px) {
+    .Navigation {
+        gap: 200px;
+    }
+}
+
+@media (min-width:425px) and (max-width: 768px) {
+    .Navigation {
+        gap: 200px;
+    }
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .Navigation {
+        gap: 200px;
+    }
+}
+
+@media (min-width:1024px) and (max-width: 1440px) {
+    .Navigation {
+        gap: 200px;
+    }
 }
