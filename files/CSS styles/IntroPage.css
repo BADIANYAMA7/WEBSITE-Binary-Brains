@@ -119,30 +119,75 @@ button:hover {
 
 @media (min-width:320px) and (max-width: 425px) {
     .Navigation {
-        gap: 200px;
+        flex-direction: column;
+        gap: 1px;
+
+    }
+
+    .box {
+        width: fit-content;
+        height: 300x;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 50px
+    }
+
+    footer {
+        text-align: center;
+        align-items: center;
+        justify-self: center;
+    }
+
+    img {
+        width: fit-content;
+        height: 200px;
+    }
+
+    iframe {
+        width: fit-content;
+        height: 400px;
     }
 }
 
 @media (min-width:425px) and (max-width: 768px) {
     .Navigation {
-        gap: 200px;
-    }
-}
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1px;
+        width: fit-content;
 
-@media (min-width:425px) and (max-width: 768px) {
-    .Navigation {
-        gap: 200px;
     }
-}
 
-@media (min-width:768px) and (max-width: 1024px) {
-    .Navigation {
-        gap: 200px;
+    .box {
+        max-width: fit-content;
+        height: 300x;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 50px
     }
-}
 
-@media (min-width:1024px) and (max-width: 1440px) {
-    .Navigation {
-        gap: 200px;
+
+    footer {
+        text-align: center;
+        align-items: center;
+        justify-self: center;
+    }
+
+
+    img {
+        width: fit-content;
+        height: 200px;
+    }
+
+    iframe {
+        width: fit-content;
+        height: 400px;
     }
 }
